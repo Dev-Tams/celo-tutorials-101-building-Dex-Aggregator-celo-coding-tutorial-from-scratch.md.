@@ -1,3 +1,8 @@
+
+# Creating an Educational DEX Aggregator on the Celo Blockchain with Solidity and Hardhat
+
+A DEX aggregator is a platform that allows users to access multiple decentralized exchanges (DEXs) through a single interface, Instead of having to visit multiple DEXs to find the best price for a specific token, users can use a DEX aggregator to compare prices and execute trades on the DEX with the best available price.
+
 # Creating an Educational DEx Aggregator on the Celo Blockchain with Solidity and Hardhat.md
 
 ## Table of Content
@@ -28,9 +33,11 @@
  # INTRODUCTION TO DEX AGGREGATOR
  A DEX aggregator is a platform that allows users to access multiple decentralized exchanges (DEXs) through a single interface, Instead of having to visit multiple DEXs to find the best price for a specific token, users can use a DEX aggregator to compare prices and execute trades on the DEX with the best available price.
 
-DEX aggregators typically use smart routing algorithms to split orders into smaller parts and execute them across multiple DEXs. This can lead to better prices, lower slippage, and higher liquidity for users with fast transactions.
 
-a popular DEX aggregator is the 1inch aggregator in the ethereum network. Matcha, and ParaSwap are as well popular platforms that offer a variety of features such as limit orders, price alerts, and portfolio tracking to make trading on DEXs more accessible and user-friendly.
+DEX aggregators typically use smart routing algorithms to split orders into smaller parts and execute them across multiple DEXs. This can lead to better prices, lower slippage, and higher liquidity for users with fast transactions.
+<br/>
+
+A popular DEX aggregator is the 1inch aggregator in the ethereum network. Matcha, and ParaSwap are as well popular platforms that offer a variety of features such as limit orders, price alerts, and portfolio tracking to make trading on DEXs more accessible and user-friendly.
 
 ## Introduction:
 Decentralized finance (DeFi) has been one of the fastest-growing sectors in the blockchain industry. Educational DeFi (EduDeFi) is a subsector that provides a platform for users to contribute educational content and earn rewards. 
@@ -38,9 +45,23 @@ In this tutorial, I walk you through the process of building a simple Educationa
 
 ## Learning Objectives
 Objective:
-~Ability to create a simple Educational DEX Aggregator on Celo blockchain using Hardhat.
-~You will understand how to write and deploy smart contracts.
-~Interact with them using a web3 interface, and how to use the Celo blockchain to store and transfer value.
+- Ability to create a simple Educational DEX Aggregator on Celo blockchain using Hardhat.
+- You will understand how to write and deploy smart contracts.
+- Interact with them using a web3 interface, and how to use the Celo blockchain to store and transfer value.
+
+
+## 1.3 Tech Stack:
+Stacks required to scale through the tutorial
+* Hardhat: Hardhat is a development environment to compile, deploy, test, and debug your Ethereum smart contracts. It provides a comprehensive set of tools to manage your project, including local blockchain networks, testing frameworks, and plugins. You can learn more about Hardhat on their official [website](https://hardhat.org/)
+
+* Solidity: Solidity is a programming language used to write smart contracts on the Ethereum blockchain. It is a high-level language that is similar to JavaScript and is designed to be secure, reliable, and easy to use. You can learn more about Solidity on the Ethereum [website](https://ethereum.org/developers/#solidity)
+
+* JavaScript: JavaScript is a popular programming language used to create dynamic web applications. It is used extensively in web development to add interactivity to websites and to create client-side applications. You can learn more about JavaScript on the Mozilla Developer Network [website](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+* React: React is a popular JavaScript library used to build user interfaces for web applications. It provides a set of tools to create reusable components, manage state, and handle user interactions. You can learn more about React on the React [website](https://reactjs.org/)
+
+* Celo Blockchain: Celo is a blockchain platform that aims to make financial tools and services accessible to everyone in the world. You can learn more about Celo on their official [website](https://celo.org/)
+
 
 ## Tech Stack:
 stacks required to scale through the tutorial
@@ -49,6 +70,7 @@ stacks required to scale through the tutorial
 * JavaScript
 * React
 * Celo Blockchain
+
  
 ## Prerequisites and Previous Knowledge:
 To follow along with this tutorial, you should have basic knowledge of:
@@ -70,6 +92,7 @@ However, the time required may vary depending on your proficiency with the tech 
 
 Let's get started!
 
+
 # Setting up the Environment
 ### Installing Node.js and NPM
 ### Installing Hardhat
@@ -82,9 +105,10 @@ Run the installer and follow the prompts to install Node.js and NPM.
 You can verify that Node.js and NPM have been installed correctly by running the following commands in your terminal:
 
 run
-		node -v
-		npm -v
-
+```
+node -v
+npm -v
+```
 
 These commands should return the version number of Node.js and NPM respectively.
 
@@ -142,13 +166,16 @@ bash
 
 ### In the next step, we will create a new Solidity contract in the contracts directory.
 
+
 * Creating and Defining the Smart Contract
+
 * Compiling the Smart Contract
 
 ### Creating and Defining the Smart Contract
 Create a new file called EduDeFi.sol in the contracts directory and add the following code:
 ``` solidity
-// SPDX-License-Identifier: GPL-3.0
+
+// SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
 
@@ -212,8 +239,7 @@ To compile the smart contract, run the following command in your terminal:
 ``` python
 npx hardhat compile
 ```
-
-### This will compile the EduDeFi.sol contract and generate artifacts in the artifacts directory.
+This will compile the EduDeFi.sol contract and generate artifacts in the artifacts directory.
 
 * Deploying the Smart Contract
 * Setting up a Celo Network
@@ -265,11 +291,9 @@ This will deploy the EduDeFi contract to the Celo network and print the contract
 Now that the smart contract is deployed, we can interact with it using the Celo network.
 firstly we need to set up the celo network.
 
-* .2 Setting up the Celo Wallet
-To interact with the smart contract, you will need to set up a Celo wallet. Follow the instructions at https://docs.celo.org/celo-sdk/wallets/using-celo-wallet to set up the Celo Wallet Chrome extension.
+* Setting up the Celo Wallet: To interact with the smart contract, you will need to set up a Celo wallet. Follow the instructions at https://docs.celo.org/celo-sdk/wallets/using-celo-wallet to set up the Celo Wallet Chrome extension.
 
-* .3 Interacting with the Smart Contract using Remix
-Remix is a popular web-based Solidity IDE that allows you to write, test, and deploy smart contracts.
+* Interacting with the Smart Contract using Remix: Remix is a popular web-based Solidity IDE that allows you to write, test, and deploy smart contracts.
 
 ### To interact with the EduDeFi contract using Remix, follow these steps:
 

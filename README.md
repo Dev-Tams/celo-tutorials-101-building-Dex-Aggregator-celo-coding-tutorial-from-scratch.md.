@@ -1,6 +1,6 @@
-# Creating an Educational DEx Aggregatir on the Celo Blockchain with Solidity and Hardhat.md
+# Creating an Educational DEx Aggregator on the Celo Blockchain with Solidity and Hardhat.md
 
- A tutorial based on how to create a dao on celo blockchain.
+ A tutorial based on how to create a dex on celo blockchain.
  
  ## INTRODUCTION
  A DEX aggregator is a platform that allows users to access multiple decentralized exchanges (DEXs) through a single interface, Instead of having to visit multiple DEXs to find the best price for a specific token, users can use a DEX aggregator to compare prices and execute trades on the DEX with the best available price.

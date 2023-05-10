@@ -1,4 +1,4 @@
-# Creating an Educational DAO on the Celo Blockchain with Solidity and Hardhat.md
+# Creating an Educational DEx Aggregatir on the Celo Blockchain with Solidity and Hardhat.md
 
  A tutorial based on how to create a dao on celo blockchain.
  

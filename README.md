@@ -1,13 +1,36 @@
-# Creating an Educational DEx Aggregatir on the Celo Blockchain with Solidity and Hardhat.md
+# Creating an Educational DEX Aggregator on the Celo Blockchain with Solidity and Hardhat
 
- A tutorial based on how to create a dao on celo blockchain.
- 
- ## INTRODUCTION
- A DEX aggregator is a platform that allows users to access multiple decentralized exchanges (DEXs) through a single interface, Instead of having to visit multiple DEXs to find the best price for a specific token, users can use a DEX aggregator to compare prices and execute trades on the DEX with the best available price.
+A tutorial based on how to create a DAO on celo blockchain.
+<br/>
+
+A DEX aggregator is a platform that allows users to access multiple decentralized exchanges (DEXs) through a single interface, Instead of having to visit multiple DEXs to find the best price for a specific token, users can use a DEX aggregator to compare prices and execute trades on the DEX with the best available price.
 
 DEX aggregators typically use smart routing algorithms to split orders into smaller parts and execute them across multiple DEXs. This can lead to better prices, lower slippage, and higher liquidity for users with fast transactions.
+<br/>
 
-a popular DEX aggregator is the 1inch aggregator in the ethereum network. Matcha, and ParaSwap are as well popular platforms that offer a variety of features such as limit orders, price alerts, and portfolio tracking to make trading on DEXs more accessible and user-friendly.
+A popular DEX aggregator is the 1inch aggregator in the ethereum network. Matcha, and ParaSwap are as well popular platforms that offer a variety of features such as limit orders, price alerts, and portfolio tracking to make trading on DEXs more accessible and user-friendly.
+
+## Table of Contents
+
+- [Creating an Educational DEX Aggregator on the Celo Blockchain with Solidity and Hardhat
+](#Creating-an-Educational DEX-Aggregator-on-the-Celo-Blockchain-with-Solidity-and-Hardhat)
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
+  - [Learning Objective](#Learning-objective)
+  - [Tech Stack](#Tech-Stack)
+  - [Prerequisites and Previous Knowledge](#Prerequisites-and-Previous-Knowledge)
+  - [Time Required](#Time-Required)
+  - [Tutorial](#tutorial)
+    - [Setting up the Environment](#Setting-up-the-Environment)
+       - [Installing Node.js and NPM](#Installing-Node.js-and-NPM)
+       - [Installing Hardhat](#Installing HardhaT)
+    - [Step 2 - Install the necessary dependencies](#Step-2-Install-the-necessary-dependencies)
+    - [Step 3 - Set up your .env file](#Step-3-Set-up-your-env-file)
+    - [Step 4 - Write your Educational DAO contract](#Step-4-Write-your-Educational-DAO-contract)
+    - [Step 5 - Write a Hardhat test script](#Step-5-Write-a-Hardhat-test-script)
+    - [Step 6 - Deploy the contract](#Step-6-Deploy-the-contract)
+    - [Step 7 - Interact with the contract](#Step-7-Interact-with-the-contract)
+    - [Conclusion](#conclusion)
 
 ## 1.1 Introduction:
 Decentralized finance (DeFi) has been one of the fastest-growing sectors in the blockchain industry. Educational DeFi (EduDeFi) is a subsector that provides a platform for users to contribute educational content and earn rewards. 
@@ -47,7 +70,7 @@ However, the time required may vary depending on your proficiency with the tech 
 
 Let's get started!
 
-# Setting up the Environment
+## Setting up the Environment
 ### 2.1 Installing Node.js and NPM
 ### 2.2 Installing Hardhat
 

@@ -1,8 +1,5 @@
 # Creating an Educational DEX Aggregator on the Celo Blockchain with Solidity and Hardhat
 
-A tutorial based on how to create a DAO on celo blockchain.
-<br/>
-
 A DEX aggregator is a platform that allows users to access multiple decentralized exchanges (DEXs) through a single interface, Instead of having to visit multiple DEXs to find the best price for a specific token, users can use a DEX aggregator to compare prices and execute trades on the DEX with the best available price.
 
 DEX aggregators typically use smart routing algorithms to split orders into smaller parts and execute them across multiple DEXs. This can lead to better prices, lower slippage, and higher liquidity for users with fast transactions.
@@ -16,17 +13,22 @@ In this tutorial, I walk you through the process of building a simple Educationa
 
 ## 1.2 Learning Objectives
 Objective:
-~Ability to create a simple Educational DEX Aggregator on Celo blockchain using Hardhat.
-~You will understand how to write and deploy smart contracts.
-~Interact with them using a web3 interface, and how to use the Celo blockchain to store and transfer value.
+- Ability to create a simple Educational DEX Aggregator on Celo blockchain using Hardhat.
+- You will understand how to write and deploy smart contracts.
+- Interact with them using a web3 interface, and how to use the Celo blockchain to store and transfer value.
 
 ## 1.3 Tech Stack:
-stacks required to scale through the tutorial
-* Hardhat
-* Solidity
-* JavaScript
-* React
-* Celo Blockchain
+Stacks required to scale through the tutorial
+* Hardhat: Hardhat is a development environment to compile, deploy, test, and debug your Ethereum smart contracts. It provides a comprehensive set of tools to manage your project, including local blockchain networks, testing frameworks, and plugins. You can learn more about Hardhat on their official [website](https://hardhat.org/)
+
+* Solidity: Solidity is a programming language used to write smart contracts on the Ethereum blockchain. It is a high-level language that is similar to JavaScript and is designed to be secure, reliable, and easy to use. You can learn more about Solidity on the Ethereum [website](https://ethereum.org/developers/#solidity)
+
+* JavaScript: JavaScript is a popular programming language used to create dynamic web applications. It is used extensively in web development to add interactivity to websites and to create client-side applications. You can learn more about JavaScript on the Mozilla Developer Network [website](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+* React: React is a popular JavaScript library used to build user interfaces for web applications. It provides a set of tools to create reusable components, manage state, and handle user interactions. You can learn more about React on the React [website](https://reactjs.org/)
+
+* Celo Blockchain: Celo is a blockchain platform that aims to make financial tools and services accessible to everyone in the world. You can learn more about Celo on their official [website](https://celo.org/)
+
  
 ## 1.4 Prerequisites and Previous Knowledge:
 To follow along with this tutorial, you should have basic knowledge of:

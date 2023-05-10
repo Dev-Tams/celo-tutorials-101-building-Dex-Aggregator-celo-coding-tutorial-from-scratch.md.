@@ -14,7 +14,7 @@ A popular DEX aggregator is the 1inch aggregator in the ethereum network. Matcha
 
 - [Creating an Educational DEX Aggregator on the Celo Blockchain with Solidity and Hardhat
 ](#Creating-an-Educational-DEX-Aggregator-on-the-Celo-Blockchain-with-Solidity-and-Hardhat)
-  - [1.1 Introduction](#introduction)
+  - [1.1 Introduction:](#introduction)
   - [Table of Contents](#table-of-contents)
   - [Learning Objective](#Learning-objective)
   - [Tech Stack](#Tech-Stack)

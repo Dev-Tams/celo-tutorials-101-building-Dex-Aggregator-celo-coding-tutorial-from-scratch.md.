@@ -14,7 +14,7 @@ A popular DEX aggregator is the 1inch aggregator in the ethereum network. Matcha
 
 - [Creating an Educational DEX Aggregator on the Celo Blockchain with Solidity and Hardhat
 ](#Creating-an-Educational-DEX-Aggregator-on-the-Celo-Blockchain-with-Solidity-and-Hardhat)
-  - [1.1 Introduction:](#1-1-introduction:)
+  - [1.1 Introduction:](#1-1-introduction)
   - [Table of Contents](#table-of-contents)
   - [Learning Objective](#Learning-objective)
   - [Tech Stack](#Tech-Stack)
@@ -23,7 +23,7 @@ A popular DEX aggregator is the 1inch aggregator in the ethereum network. Matcha
   - [Tutorial](#tutorial)
     - [Setting up the Environment](#Setting-up-the-Environment)
        - [Installing Node.js and NPM](#Installing-Node.js-and-NPM)
-       - [Installing Hardhat](#Installing HardhaT)
+       - [Installing Hardhat](#Installing Hardhat)
     - [Step 2 - Install the necessary dependencies](#Step-2-Install-the-necessary-dependencies)
     - [Step 3 - Set up your .env file](#Step-3-Set-up-your-env-file)
     - [Step 4 - Write your Educational DAO contract](#Step-4-Write-your-Educational-DAO-contract)

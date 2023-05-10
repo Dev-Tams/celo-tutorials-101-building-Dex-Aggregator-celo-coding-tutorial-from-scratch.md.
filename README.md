@@ -10,28 +10,6 @@ DEX aggregators typically use smart routing algorithms to split orders into smal
 
 A popular DEX aggregator is the 1inch aggregator in the ethereum network. Matcha, and ParaSwap are as well popular platforms that offer a variety of features such as limit orders, price alerts, and portfolio tracking to make trading on DEXs more accessible and user-friendly.
 
-## Table of Contents
-
-- [Creating an Educational DEX Aggregator on the Celo Blockchain with Solidity and Hardhat
-](#Creating-an-Educational-DEX-Aggregator-on-the-Celo-Blockchain-with-Solidity-and-Hardhat)
-  - [1.1 Introduction:](#1-1-introduction)
-  - [Table of Contents](#table-of-contents)
-  - [Learning Objective](#Learning-objective)
-  - [Tech Stack](#Tech-Stack)
-  - [Prerequisites and Previous Knowledge](#Prerequisites-and-Previous-Knowledge)
-  - [Time Required](#Time-Required)
-  - [Tutorial](#tutorial)
-    - [Setting up the Environment](#Setting-up-the-Environment)
-       - [Installing Node.js and NPM](#Installing-Node.js-and-NPM)
-       - [Installing Hardhat](#Installing Hardhat)
-    - [Step 2 - Install the necessary dependencies](#Step-2-Install-the-necessary-dependencies)
-    - [Step 3 - Set up your .env file](#Step-3-Set-up-your-env-file)
-    - [Step 4 - Write your Educational DAO contract](#Step-4-Write-your-Educational-DAO-contract)
-    - [Step 5 - Write a Hardhat test script](#Step-5-Write-a-Hardhat-test-script)
-    - [Step 6 - Deploy the contract](#Step-6-Deploy-the-contract)
-    - [Step 7 - Interact with the contract](#Step-7-Interact-with-the-contract)
-    - [Conclusion](#conclusion)
-
 ## 1.1 Introduction:
 Decentralized finance (DeFi) has been one of the fastest-growing sectors in the blockchain industry. Educational DeFi (EduDeFi) is a subsector that provides a platform for users to contribute educational content and earn rewards. 
 In this tutorial, I walk you through the process of building a simple Educational DEX Aggregator on Celo blockchain using Hardhat. taking to note how to create a smart contract that allows users to contribute educational content and earn rewards in the form of CELO tokens.
@@ -82,9 +60,10 @@ Run the installer and follow the prompts to install Node.js and NPM.
 You can verify that Node.js and NPM have been installed correctly by running the following commands in your terminal:
 
 run
-		node -v
-		npm -v
-
+```
+node -v
+npm -v
+```
 
 These commands should return the version number of Node.js and NPM respectively.
 
@@ -142,13 +121,13 @@ bash
 
 ### In the next step, we will create a new Solidity contract in the contracts directory.
 
-* Creating the Smart Contract
 * Defining the Smart Contract
 * Compiling the Smart Contract
 
 ### 3.1 Defining the Smart Contract
 Create a new file called EduDeFi.sol in the contracts directory and add the following code:
 ``` solidity
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 contract EduDeFi {
@@ -183,8 +162,7 @@ To compile the smart contract, run the following command in your terminal:
 ``` python
 npx hardhat compile
 ```
-
-### This will compile the EduDeFi.sol contract and generate artifacts in the artifacts directory.
+This will compile the EduDeFi.sol contract and generate artifacts in the artifacts directory.
 
 * Deploying the Smart Contract
 * Setting up a Celo Network
@@ -236,11 +214,9 @@ This will deploy the EduDeFi contract to the Celo network and print the contract
 Now that the smart contract is deployed, we can interact with it using the Celo network.
 firstly we need to set up the celo network.
 
-* .2 Setting up the Celo Wallet
-To interact with the smart contract, you will need to set up a Celo wallet. Follow the instructions at https://docs.celo.org/celo-sdk/wallets/using-celo-wallet to set up the Celo Wallet Chrome extension.
+* Setting up the Celo Wallet: To interact with the smart contract, you will need to set up a Celo wallet. Follow the instructions at https://docs.celo.org/celo-sdk/wallets/using-celo-wallet to set up the Celo Wallet Chrome extension.
 
-* .3 Interacting with the Smart Contract using Remix
-Remix is a popular web-based Solidity IDE that allows you to write, test, and deploy smart contracts.
+* Interacting with the Smart Contract using Remix: Remix is a popular web-based Solidity IDE that allows you to write, test, and deploy smart contracts.
 
 ### To interact with the EduDeFi contract using Remix, follow these steps:
 

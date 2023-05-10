@@ -15,6 +15,13 @@
    - [Configuring Hardhat](#configuring-hardhat)
    - [Creating and Defining the Smart Contract](#creating-and-defining-the-smart-contract)
    - [Compiling the Smart Contract](#compiling-the-smart-contract)
+   - [Setting up a Celo Network](#setting-up-a-celo-network)
+   - [Configuring Hardhat for Deployment](#conigure-hardhat-for-deployment)
+   - [Deploying the Smart Contract](#deploying-the-smart-contract)
+   - [Interacting with the Smart Contract](#interacting-with-the-smart-contract)
+   - [Adding Content to the Smart Contract](#adding-content-to-the-smart-contract)
+   - [Viewing Content on the Smart Contract](#viewing-content-on-the-smart-contract)
+   - [Conclusion](#conclusion)
 
  A tutorial based on how to create a dex on celo blockchain.
  
@@ -213,10 +220,10 @@ npx hardhat compile
 * Configuring Hardhat for Deployment
 * Deploying the Smart Contract
 
-### 3.3 Setting up a Celo Network
+### Setting up a Celo Network
 Before deploying the smart contract, you need to set up a Celo network. Follow the instructions at https://docs.celo.org/getting-started/baklava-testnet to set up a Baklava testnet node.
 
-### 3.4 Configuring Hardhat for Deployment
+### Configuring Hardhat for Deployment
 To configure Hardhat for deployment, open the hardhat.config.js file and add the following code:
 ``` javascript
 require("@nomiclabs/hardhat-waffle");
@@ -246,7 +253,7 @@ module.exports = {
 ```
 This code configures Hardhat to use the Celo RPC URL and private key from your .env file, and sets the Solidity version and optimizer settings.
 
-### 3.4 Deploying the Smart Contract
+### Deploying the Smart Contract
 To deploy the smart contract, run the following command in your terminal:
 
 ```arduino
@@ -254,7 +261,7 @@ npx hardhat run scripts/deploy.js --network celo
 ```
 This will deploy the EduDeFi contract to the Celo network and print the contract address to the console.
 
-### 4.1 Interacting with the Smart Contract
+###  Interacting with the Smart Contract
 Now that the smart contract is deployed, we can interact with it using the Celo network.
 firstly we need to set up the celo network.
 
@@ -274,7 +281,7 @@ Remix is a popular web-based Solidity IDE that allows you to write, test, and de
 * In the "Deploy" section, select the EduDeFi contract from the dropdown and click "Deploy".
 After the contract is deployed, you can interact with it using the functions in the "Read Contract" and "Write Contract" sections.
 
-### 4.4 Adding Content to the Smart Contract
+### Adding Content to the Smart Contract
 To add content to the EduDeFi smart contract, follow these steps:
 
 * Connect your Celo Wallet to the Celo network.
@@ -286,7 +293,7 @@ To add content to the EduDeFi smart contract, follow these steps:
 * Enter a title and URL for the content you want to add.
 * Click "Write" to add the content to the smart contract.
 
-### 4.5 Viewing Content on the Smart Contract
+### Viewing Content on the Smart Contract
 To view the content that has been added to the EduDeFi smart contract, follow these steps:
 
 * Connect your Celo Wallet to the Celo network.
@@ -298,5 +305,5 @@ To view the content that has been added to the EduDeFi smart contract, follow th
 * Enter the ID of the content you want to view.
 * Click "Read" to view the content.
 
-### 5.0 Conclusion
+### Conclusion
 In this tutorial, we have created a simple educational dex aggregator on the Celo blockchain using the Hardhat development framework. We have learned how to create a smart contract that stores educational content, how to deploy the smart contract to the Celo network, and how to interact with the smart contract using the Celo Wallet and Remix. We have also learned how to add content to the smart contract and view content stored on the smart contract. With this knowledge, you can start building your own educational dex aggregator and contribute to the Celo blockchain ecosystem.
